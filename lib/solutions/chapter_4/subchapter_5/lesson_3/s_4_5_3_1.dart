@@ -4,6 +4,33 @@ class S4531 extends StatelessWidget {
   const S4531({super.key});
   @override
   Widget build(BuildContext context) {
-    throw UnimplementedError();
+    return BonusAufgabe1();
+  }
+}
+
+class BonusAufgabe1 extends StatelessWidget {
+  const BonusAufgabe1({super.key});
+
+  @override
+  Widget build(BuildContext context) {
+    return Column(
+      children: [
+        Container(
+          height: 100,
+          width: 100,
+          color: Colors.blueGrey,
+        ),
+        Container(
+          height: 100,
+          width: 100,
+          color: Colors.blue,
+        ),
+        Container(
+          height: 100,
+          width: 100,
+          color: Colors.cyan,
+        ),
+      ],
+    );
   }
 }
