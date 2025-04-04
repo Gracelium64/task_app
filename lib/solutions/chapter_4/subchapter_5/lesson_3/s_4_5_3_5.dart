@@ -4,12 +4,12 @@ class S4535 extends StatelessWidget {
   const S4535({super.key});
   @override
   Widget build(BuildContext context) {
-    return BonusAufgabe2();
+    return Aufgabe4535();
   }
 }
 
-class BonusAufgabe2 extends StatelessWidget {
-  const BonusAufgabe2({super.key});
+class Aufgabe4535 extends StatelessWidget {
+  const Aufgabe4535({super.key});
 
   @override
   Widget build(BuildContext context) {
